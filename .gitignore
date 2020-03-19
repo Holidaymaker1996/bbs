@@ -1,0 +1,4 @@
+.idea
+*.pyc
+secret.py
+database_secret.conf

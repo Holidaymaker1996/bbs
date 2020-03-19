@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<head>
+	<title>忘记密码</title>
+	<meta name="keywords" content="" />
+	<meta name="description" content="" />
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<link href="/static/css-1/font-awesome.min.css" rel="stylesheet" type="text/css">
+	<link href="/static/css-1/bootstrap.min.css" rel="stylesheet" type="text/css">
+	<link href="/static/css-1/bootstrap-theme.min.css" rel="stylesheet" type="text/css">
+	<link href="/static/css-1/templatemo_style.css" rel="stylesheet" type="text/css">
+    <link href="/static/css/style.css" rel="stylesheet" type="text/css">
+</head>
+<body class="templatemo-bg-gray">
+	<div class="container">
+		<div class="col-md-12">
+			<h1 class="margin-bottom-15">重设密码</h1>
+			<form class="form-horizontal templatemo-forgot-password-form templatemo-container" role="form" action="/reset/send" method="post">
+				<div class="form-group">
+		          <div class="col-md-12">
+		          	请输入您的用户名，稍后会将重置密码邮件发送至您注册邮箱
+		          </div>
+		        </div>
+                <form class="form-horizontal" method="post" action="/reset/send">
+		        <div class="form-group">
+		          <div class="col-md-12">
+		            <input type="text" class="input-xlarge" name="username">
+		          </div>              
+		        </div>
+		        <div class="form-group">
+		          <div class="col-md-12">
+		            <input type="submit" value="确定" class="btn btn-danger">
+
+
+
+		          </div>
+		        </div>
+		      </form>
+		</div>
+	</div>
+
+</body>
+</html>
